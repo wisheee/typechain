@@ -22,7 +22,7 @@ class Block {
 
 const genesisBlock: Block = new Block(0, '123456789', '', 'Hello', 20220319);
 
-let blockchain: [Block] = [genesisBlock];
+let blockchain: Block[] = [genesisBlock];
 
 console.log(blockchain);
 
